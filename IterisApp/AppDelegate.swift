@@ -1,4 +1,6 @@
 import UIKit
+import DynamicModule
+import StaticModule
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
@@ -16,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Iteris Anywhere and Together"
 
+        // label.text = DynamicLibrary().hello()
+        // label.text = StaticLibrary().hello()
+        
         vc.view.addSubview(label)
 
         label.centerXAnchor.constraint(equalTo: vc.view.centerXAnchor).isActive = true

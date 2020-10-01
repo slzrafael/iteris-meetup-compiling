@@ -1,5 +1,7 @@
 public class DynamicLibrary {
-    func hello() -> String {
+    public init() {}
+
+    public func hello() -> String {
         return "Hello From Dynamic Library"
     }
 }
