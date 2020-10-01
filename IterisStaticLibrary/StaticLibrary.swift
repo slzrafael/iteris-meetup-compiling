@@ -1,4 +1,4 @@
-public class Messenger {
+public class StaticLibrary {
     public init() {}
 
     public func hello() -> String {
